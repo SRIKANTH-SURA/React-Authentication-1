@@ -1,0 +1,107 @@
+.login-form-page {
+  padding: 15px;
+}
+
+.login-img-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.website-logo-mobile-img {
+  width: 180px;
+  margin: 15px 0px;
+}
+
+.website-logo-desktop-img {
+  display: none;
+}
+
+.website-login-img {
+  width: 320px;
+  margin: 15px 0px;
+}
+
+.form-container {
+  /* width: 100%; */
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+  font-weight: bold;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+
+.user-input {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #e2e8f0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.login-btn {
+  padding: 10px;
+  border: none;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .login-form-page {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+  }
+
+  .website-logo-mobile-img {
+    display: none;
+  }
+
+  .website-logo-desktop-img {
+    display: block;
+    width: 180px;
+    margin: 15px auto;
+  }
+
+  .login-img-content {
+    width: 60%;
+  }
+
+  .website-login-img {
+    width: 400px;
+  }
+
+  .form-container {
+    width: 330px;
+    padding: 40px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+  }
+}
+
+.error-message {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ff0b37;
+}
